@@ -1,0 +1,169 @@
+
+
+h1{
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 6rem;
+  color: #fce250;
+    text-shadow: 6px 6px #c1a3e2;
+    text-align: center;
+
+}
+
+
+
+.titel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0rem;
+  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
+transition: opacity 1s;
+}
+
+.nav{
+  position: absolute;
+  top: 1rem;
+  width: 100vw;
+  display: flex;
+  align-items:center;
+
+}
+
+a{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #c1a3e2;
+  padding-left: 9rem;
+  text-align: center;
+  transition: transform .2s;
+  }
+
+a:hover {
+  text-shadow: 3px 3px yellow;
+
+}
+
+.a1:hover{
+    transform: scale(1.5);
+}
+.a2:hover{
+    transform: scale(1.5);
+}
+.a3:hover{
+    transform: scale(1.5);
+}
+.a4:hover{
+    transform: scale(1.5);
+}
+
+@media (max-width: 600px) {
+
+
+h1{
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fce250;
+    text-shadow: 3px 3px #c1a3e2;
+    text-align: center;
+
+}
+
+
+
+.titel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 4rem;
+  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
+transition: opacity 1s;
+}
+
+.nav{
+  position: absolute;
+  top: 3rem;
+  width: 100vw;
+  display: flex;
+  align-items:center;
+
+}
+
+a{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #c1a3e2;
+  padding-left: 2rem;
+  text-align: center;
+  transition: transform .2s;
+  }
+
+a:hover {
+  text-shadow: 1px 1px yellow;
+
+}
+}
+
+@media (max-width: 900px) {
+
+
+h1{
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fce250;
+    text-shadow: 3px 3px #c1a3e2;
+    text-align: center;
+
+}
+
+
+
+.titel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0rem;
+  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
+transition: opacity 1s;
+}
+
+.nav{
+  position: absolute;
+  top: 3rem;
+  width: 100vw;
+  display: flex;
+  align-items:center;
+
+}
+
+a{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #c1a3e2;
+  padding-left: 2rem;
+  text-align: center;
+  transition: transform .2s;
+  }
+
+a:hover {
+  text-shadow: 1px 1px yellow;
+
+}
+}
