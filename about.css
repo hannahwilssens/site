@@ -1,0 +1,627 @@
+@media (min-width: 400px) {
+  header{
+    height: 15rem;
+    background-color: #f5f3d0;
+  }
+
+  h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    opacity: 1;
+    color: white;
+    text-shadow: 0.8px 0.8px #E5AC7F;
+  }
+  h1:hover{
+      text-shadow: 2px 2px #E5AC7F;
+  }
+
+  #blad{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 18rem;
+    top: -2rem;
+  }
+
+  nav a{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: fixed;
+    margin-left: 2rem;
+  }
+
+  a:nth-child(1){
+    position: absolute;
+    left: 0.4rem;
+    top: 9rem;
+  }
+
+  a:nth-child(2){
+    position: absolute;
+    left: 6rem;
+    top: 9rem;
+  }
+
+  a:nth-child(3){
+    position: absolute;
+    left: 13rem;
+    top: 9rem;
+  }
+
+  a:nth-child(4){
+    position: absolute;
+    left: 24rem;
+    top: 9rem;
+  }
+
+
+  header a:hover{
+     text-shadow: 1px 1px #E5AC7F;
+ }
+
+
+
+ main{
+   background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+   height: 200vh;
+   width: 100vw;
+   overflow: hidden;
+   display: grid;
+   grid-template-columns: 100vw 100vw 100vw;
+
+ }
+
+h2{
+  font-size: 1.5rem;
+  font-family: serif;
+  color: #E5AC7F;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+header img {
+  width: 40%;
+  height: auto;
+}
+
+#plant1{
+  transform: rotate(20deg);
+  position: absolute;
+  left: -4rem;
+  top: 24rem;
+}
+
+#plant2{
+  transform: rotate(-32deg);
+  position: absolute;
+  right: -4rem;
+  top: 36rem;
+}
+
+h3{
+  font-size: 1.4rem;
+  font-family: serif;
+  color: #E5AC7F;
+  text-align: center;
+
+}
+
+  .eerste{
+  font-weight: 400;
+  position: absolute;
+  left: 2rem;
+  top: 21rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+
+}
+
+.tweede{
+  font-weight: 400;
+  position: absolute;
+  left: 14rem;
+  top: 29rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+}
+
+.derde{
+  font-weight: 400;
+  position: absolute;
+  left: 5rem;
+  top: 34rem;
+  text-align: left;
+  line-height: 2rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 8s;
+}
+
+main img {
+  margin-top: 35rem;
+  width: 100%;
+	animation-name: fotoslide;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes fotoslide {
+	22% {
+		transform: translate(0,0);
+	}
+	25% {
+		transform: translate(-100vw,0);
+	}
+	47% {
+		transform: translate(-100vw,0);
+	}
+	50% {
+		transform: translate(-200vw,0);
+	}
+	72% {
+		transform: translate(-200vw,0);
+	}
+	75% {
+		transform: translate(-100vw,0);
+	}
+	97% {
+		transform: translate(-100vw,0);
+	}
+	100% {
+		transform: translate(0,0);
+	}
+}
+
+
+
+
+
+
+
+@keyframes tonen {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+}
+
+@media (min-width: 700px) {
+  header{
+    height: 15rem;
+    background-color: #f5f3d0;
+    width: 100vw;
+  }
+
+  h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+    left: 13rem;
+    opacity: 1;
+    color: white;
+    text-shadow: 0.8px 0.8px #E5AC7F;
+  }
+  h1:hover{
+      text-shadow: 2px 2px #E5AC7F;
+  }
+
+  #blad{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 27rem;
+    top: -4rem;
+  }
+
+  nav a{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: fixed;
+    margin-left: 2rem;
+  }
+
+  a:nth-child(1){
+    position: absolute;
+    left: 0.4rem;
+    top: 9rem;
+  }
+
+  a:nth-child(2){
+    position: absolute;
+    left: 8rem;
+    top: 9rem;
+  }
+
+  a:nth-child(3){
+    position: absolute;
+    left: 33rem;
+    top: 9rem;
+  }
+
+  a:nth-child(4){
+    position: absolute;
+    left: 45rem;
+    top: 9rem;
+  }
+
+
+  header a:hover{
+     text-shadow: 1px 1px #E5AC7F;
+ }
+
+
+ main{
+   background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+   height: 150vh;
+   width: 100vw;
+
+ }
+ h2{
+   font-size: 2rem;
+   font-family: serif;
+   color: #E5AC7F;
+   text-align: center;
+   font-weight: 600;
+
+ }
+
+
+
+ #plant1{
+   width: 30%;
+   height: auto;
+   transform: rotate(26deg);
+   position: absolute;
+   left: -5.5rem;
+   top: 24rem;
+ }
+
+ #plant2{
+   transform: rotate(-36deg);
+   position: absolute;
+   right: -7.6rem;
+   top: 33rem;
+ }
+
+ h3{
+   font-size: 2rem;
+   font-family: serif;
+   color: #E5AC7F;
+   text-align: center;
+
+ }
+
+   .eerste{
+   font-weight: 400;
+   position: absolute;
+   left: 3rem;
+   top: 21rem;
+   animation-name: tonen;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+   animation-delay: 2s;
+
+ }
+
+ .tweede{
+   font-weight: 400;
+   position: absolute;
+   left: 28rem;
+   top: 29rem;
+   animation-name: tonen;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+   animation-delay: 4s;
+ }
+
+ .derde{
+   font-weight: 400;
+   position: absolute;
+   left: 8rem;
+   top: 34rem;
+   text-align: left;
+   line-height: 2rem;
+   animation-name: tonen;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+   animation-delay: 8s;
+ }
+
+ main img {
+   margin-top: 39rem;
+   width: 100%;
+ 	animation-name: fotoslide;
+ 	animation-duration: 20s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ }
+
+
+ @keyframes fotoslide {
+ 	22% {
+ 		transform: translate(0,0);
+ 	}
+ 	25% {
+ 		transform: translate(-100vw,0);
+ 	}
+ 	47% {
+ 		transform: translate(-100vw,0);
+ 	}
+ 	50% {
+ 		transform: translate(-200vw,0);
+ 	}
+ 	72% {
+ 		transform: translate(-200vw,0);
+ 	}
+ 	75% {
+ 		transform: translate(-100vw,0);
+ 	}
+ 	97% {
+ 		transform: translate(-100vw,0);
+ 	}
+ 	100% {
+ 		transform: translate(0,0);
+ 	}
+ }
+
+
+
+
+
+
+
+ @keyframes tonen {
+   0%{
+     opacity: 0;
+   }
+
+   100%{
+     transform: scale(1);
+     opacity: 1;
+   }
+ }
+
+}
+
+@media (min-width: 1000px) {
+
+
+header{
+  height: 20rem;
+  background-color: #f5f3d0;
+
+}
+
+h1{
+  font-family: 'Crimson Text', serif;
+  font-weight: 100;
+  font-size: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 3rem;
+  left: 27rem;
+  opacity: 1;
+  color: white;
+  text-shadow: 0.8px 0.8px #E5AC7F;
+}
+
+h1:hover{
+    text-shadow: 2px 2px #E5AC7F;
+}
+
+#blad{
+  width: 40%;
+  height: auto;
+  position: absolute;
+  left: 39rem;
+  top: -6rem;
+}
+
+nav a{
+  font-family: serif;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  position: fixed;
+  margin-left: 2rem;
+}
+
+a:nth-child(1){
+  position: absolute;
+  left: 2rem;
+  top: 10rem;
+}
+
+a:nth-child(2){
+  position: absolute;
+  left: 16rem;
+  top: 10rem;
+}
+
+a:nth-child(3){
+  position: absolute;
+  left: 52rem;
+  top: 10rem;
+}
+
+a:nth-child(4){
+  position: absolute;
+  left: 70rem;
+  top: 10rem;
+}
+
+
+
+ header a:hover{
+    text-shadow: 1px 1px #E5AC7F;
+}
+
+
+
+
+main{
+ background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+ height: 250vh;
+ width: 100vw;
+
+}
+
+h2{
+  font-size: 3rem;
+  font-family: serif;
+  color: #E5AC7F;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+
+
+#plant1{
+  width: 30%;
+  height: auto;
+  transform: rotate(26deg);
+  position: absolute;
+  left: -7rem;
+  top: 24rem;
+}
+
+#plant2{
+  transform: rotate(-36deg);
+  position: absolute;
+  right: -10rem;
+  top: 33rem;
+}
+
+h3{
+  font-size: 2rem;
+  font-family: serif;
+  color: #E5AC7F;
+  text-align: center;
+
+}
+
+  .eerste{
+  font-weight: 400;
+  position: absolute;
+  left: 13rem;
+  top: 30rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+
+}
+
+.tweede{
+  font-weight: 400;
+  position: absolute;
+  left: 45rem;
+  top: 35rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+}
+
+.derde{
+  font-weight: 400;
+  position: absolute;
+  left: 11rem;
+  top: 40rem;
+  text-align: left;
+  line-height: 2rem;
+  animation-name: tonen;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 8s;
+}
+
+main img {
+  margin-top: 39rem;
+  width: 80%;
+ animation-name: fotoslide;
+ animation-duration: 20s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+@keyframes fotoslide {
+ 22% {
+   transform: translate(0,0);
+ }
+ 25% {
+   transform: translate(-100vw,0);
+ }
+ 47% {
+   transform: translate(-100vw,0);
+ }
+ 50% {
+   transform: translate(-200vw,0);
+ }
+ 72% {
+   transform: translate(-200vw,0);
+ }
+ 75% {
+   transform: translate(-100vw,0);
+ }
+ 97% {
+   transform: translate(-100vw,0);
+ }
+ 100% {
+   transform: translate(0,0);
+ }
+}
+
+
+
+
+
+
+
+@keyframes tonen {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+}

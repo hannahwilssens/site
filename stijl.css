@@ -1,169 +1,691 @@
+@media (min-width: 400px) {
+  header{
+    height: 15rem;
+    background-color: #f5f3d0;
+  }
 
+  h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    opacity: 1;
+    color: white;
+    text-shadow: 0.8px 0.8px #E5AC7F;
+  }
+  h1:hover{
+      text-shadow: 2px 2px #E5AC7F;
+  }
+
+  #blad{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 18rem;
+    top: -2rem;
+  }
+
+  nav a{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: fixed;
+    margin-left: 2rem;
+  }
+
+  a:nth-child(1){
+    position: absolute;
+    left: 0.4rem;
+    top: 9rem;
+  }
+
+  a:nth-child(2){
+    position: absolute;
+    left: 6rem;
+    top: 9rem;
+  }
+
+  a:nth-child(3){
+    position: absolute;
+    left: 13rem;
+    top: 9rem;
+  }
+
+  a:nth-child(4){
+    position: absolute;
+    left: 24rem;
+    top: 9rem;
+  }
+
+  a:nth-child(5){
+  opacity: 0;
+  }
+
+  header a:hover{
+     text-shadow: 1px 1px #E5AC7F;
+ }
+
+ .pink img{
+  opacity: 0;
+
+ }
+
+ main{
+   background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+   height: 200vh;
+   width: 100vw;
+
+ }
+
+ .pink{
+   display: none;
+ }
+
+ .Project1 {
+   width: 20rem;
+   height: 17rem;
+   position: absolute;
+   left: 33vw;
+   background-color: white;
+
+ }
+
+.info{
+  width: 23rem;
+  height: 14rem;
+  position: absolute;
+  left: 4rem;
+  top: 21rem;
+
+}
+
+.info a{
+  text-align: right;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info a:hover{
+   text-shadow: 1px 1px black;
+}
+
+.Project2 {
+  width: 21rem;
+  height: 24rem;
+  position: absolute;
+  left: 2vw;
+  top: 40rem;
+  background-color: white;
+}
+
+.info2{
+  width: 23rem;
+  height: 14rem;
+  position: absolute;
+  left: 14rem;
+  top: 47rem;
+  transform: rotate(90deg);
+
+}
+
+.info2 a{
+  text-align: right;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info2 a:hover{
+   text-shadow: 1px 1px black;
+}
+
+.Project3 {
+  width: 24rem;
+  height: 20rem;
+  position: absolute;
+  left: 10rem;
+  top: 68rem;
+  background-color: white;
+}
+
+.info3{
+  width: 23rem;
+  height: 14rem;
+  position: absolute;
+  left: 3rem;
+  top: 57rem;
+
+}
+
+.info3 a{
+  text-align: right;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info3 a:hover{
+   text-shadow: 1px 1px black;
+}
+.Project1:hover{
+  background-image: url(afb/img7.svg);
+
+}
+
+.Project2:hover{
+  background-image: url(afb/img8.svg);
+
+}
+.Project3:hover{
+  background-image: url(afb/img9.svg);
+
+}
+
+.pink img{
+opacity: 0;
+
+}
+.pink p{
+  opacity: 0;
+
+}
+.pink a{
+opacity: 0;
+}
+}
+
+@media (min-width: 700px) {
+  header{
+    height: 15rem;
+    background-color: #f5f3d0;
+    width: 100vw;
+  }
+
+  h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3rem;
+    left: 13rem;
+    opacity: 1;
+    color: white;
+    text-shadow: 0.8px 0.8px #E5AC7F;
+  }
+  h1:hover{
+      text-shadow: 2px 2px #E5AC7F;
+  }
+
+  #blad{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 27rem;
+    top: -4rem;
+  }
+
+  nav a{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: fixed;
+    margin-left: 2rem;
+  }
+
+  a:nth-child(1){
+    position: absolute;
+    left: 0.4rem;
+    top: 9rem;
+  }
+
+  a:nth-child(2){
+    position: absolute;
+    left: 8rem;
+    top: 9rem;
+  }
+
+  a:nth-child(3){
+    position: absolute;
+    left: 33rem;
+    top: 9rem;
+  }
+
+  a:nth-child(4){
+    position: absolute;
+    left: 45rem;
+    top: 9rem;
+  }
+
+  a:nth-child(5){
+  opacity: 0;
+  }
+
+  header a:hover{
+     text-shadow: 1px 1px #E5AC7F;
+ }
+
+ .pink img{
+   opacity: 0;
+
+ }
+
+ main{
+   background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+   height: 250vh;
+   width: 100vw;
+
+ }
+
+ .Project1 {
+   width: 24rem;
+   height: 17rem;
+   position: absolute;
+   left: 27rem;
+   background-color: white;
+ }
+
+.info{
+  width: 28rem;
+  height: 14rem;
+  position: absolute;
+  left: 12rem;
+  top: 21rem;
+
+}
+.pink{
+  display: none;
+}
+
+.info a{
+  text-align: right;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info a:hover{
+   text-shadow: 1px 1px black;
+}
+
+.Project2 {
+  width: 21rem;
+  height: 24rem;
+  position: absolute;
+  left: 2vw;
+  top: 40rem;
+  background-color: white;
+}
+
+.info2{
+  width: 26rem;
+  height: 14rem;
+  position: absolute;
+  left: 14rem;
+  top: 47rem;
+  transform: rotate(90deg);
+
+}
+
+.info2 a{
+  text-align: right;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info2 a:hover{
+   text-shadow: 1px 1px black;
+}
+
+.Project3 {
+  width: 24rem;
+  height: 20rem;
+  position: absolute;
+  left: 14rem;
+  top: 70rem;
+  background-color: white;
+}
+
+.info3{
+  width: 26rem;
+  height: 14rem;
+  position: absolute;
+  left: 6rem;
+  top: 59rem;
+
+}
+
+.info3 a{
+  text-align: right;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info3 a:hover{
+   text-shadow: 1px 1px black;
+}
+
+.Project1:hover{
+  background-image: url(afb/img7.svg);
+
+}
+
+.Project2:hover{
+  background-image: url(afb/img8.svg);
+
+}
+.Project3:hover{
+  background-image: url(afb/img9.svg);
+
+}
+
+.pink img{
+opacity: 0;
+
+}
+.pink p{
+  opacity: 0;
+
+}
+.pink a{
+opacity: 0;
+}
+}
+
+@media (min-width: 1000px) {
+
+
+header{
+  height: 20rem;
+  background-color: #f5f3d0;
+
+}
 
 h1{
-  font-family: sans-serif;
-  font-weight: 900;
+  font-family: 'Crimson Text', serif;
+  font-weight: 100;
   font-size: 6rem;
-  color: #fce250;
-    text-shadow: 6px 6px #c1a3e2;
-    text-align: center;
-
-}
-
-
-
-.titel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 0rem;
-  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
-transition: opacity 1s;
-}
-
-.nav{
-  position: absolute;
-  top: 1rem;
-  width: 100vw;
-  display: flex;
-  align-items:center;
-
-}
-
-a{
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 3rem;
-  text-decoration: none;
-  color: #c1a3e2;
-  padding-left: 9rem;
   text-align: center;
-  transition: transform .2s;
-  }
-
-a:hover {
-  text-shadow: 3px 3px yellow;
-
-}
-
-.a1:hover{
-    transform: scale(1.5);
-}
-.a2:hover{
-    transform: scale(1.5);
-}
-.a3:hover{
-    transform: scale(1.5);
-}
-.a4:hover{
-    transform: scale(1.5);
-}
-
-@media (max-width: 600px) {
-
-
-h1{
-  font-family: sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  color: #fce250;
-    text-shadow: 3px 3px #c1a3e2;
-    text-align: center;
-
-}
-
-
-
-.titel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 4rem;
-  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
-transition: opacity 1s;
-}
-
-.nav{
+  text-transform: uppercase;
   position: absolute;
   top: 3rem;
-  width: 100vw;
-  display: flex;
-  align-items:center;
-
+  left: 27rem;
+  opacity: 1;
+  color: white;
+  text-shadow: 0.8px 0.8px #E5AC7F;
 }
 
-a{
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
-  text-decoration: none;
-  color: #c1a3e2;
-  padding-left: 2rem;
-  text-align: center;
-  transition: transform .2s;
-  }
-
-a:hover {
-  text-shadow: 1px 1px yellow;
-
-}
+h1:hover{
+    text-shadow: 2px 2px #E5AC7F;
 }
 
-@media (max-width: 900px) {
-
-
-h1{
-  font-family: sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  color: #fce250;
-    text-shadow: 3px 3px #c1a3e2;
-    text-align: center;
-
-}
-
-
-
-.titel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 0rem;
-  background-image:linear-gradient(to bottom,  #fce250 10%, #c1a3e2 70%);
-transition: opacity 1s;
-}
-
-.nav{
+#blad{
+  width: 40%;
+  height: auto;
   position: absolute;
-  top: 3rem;
-  width: 100vw;
-  display: flex;
-  align-items:center;
-
+  left: 39rem;
+  top: -6rem;
 }
 
-a{
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
+nav a{
+  font-family: serif;
+  font-weight: 600;
+  color: white;
   text-decoration: none;
-  color: #c1a3e2;
-  padding-left: 2rem;
-  text-align: center;
-  transition: transform .2s;
-  }
+  font-size: 2rem;
+  position: fixed;
+  margin-left: 2rem;
+}
 
-a:hover {
-  text-shadow: 1px 1px yellow;
+a:nth-child(1){
+  position: absolute;
+  left: 2rem;
+  top: 10rem;
+}
+
+a:nth-child(2){
+  position: absolute;
+  left: 16rem;
+  top: 10rem;
+}
+
+a:nth-child(3){
+  position: absolute;
+  left: 52rem;
+  top: 10rem;
+}
+
+a:nth-child(4){
+  position: absolute;
+  left: 70rem;
+  top: 10rem;
+}
+
+a:nth-child(5){
+  position: absolute;
+  left: 35.2rem;
+  top: 14rem;
+  font-size: 1.4rem;
+  color: #E5AC7F;
+  opacity: 1;
+}
+
+ header a:hover{
+    text-shadow: 1px 1px #E5AC7F;
+}
+
+header a:nth-child(5):hover{
+   text-shadow: 1px 1px white;
+}
+
+.onzichtbaar{
+  display: none;
+}
+
+.pink {
+  opacity: 1;
+      height: 0px;
+      overflow: hidden;
+      background-color: #E5AC7F;
+      transition: all 1s ease-in;
+      display: block;
+      display: grid;
+      grid-template-columns: 30rem 15rem 27rem;
+      grid-template-rows: 2rem 1fr;
 
 }
+
+.slideopen {
+      height: 90vh;
+
+}
+
+
+
+.link a{
+  opacity: 1;
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+}
+
+.pink img{
+  width: 80%;
+  height: auto;
+  margin-top: 2rem;
+  opacity: 1;
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+}
+.pink p{
+  opacity: 1;
+  font-size: 2rem;
+  color: white;
+  grid-row: 2;
+  grid-column: 2;
+
+}
+.pink a{
+  opacity: 1;
+  font-size: 3rem;
+  position: inherit;
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 27rem;
+  margin-left: 9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+header a:hover{
+   text-shadow: 1px 1px #E5AC7F;
+}
+
+
+
+main{
+ background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
+ height: 250vh;
+ width: 100vw;
+
+}
+
+.Project1 {
+ width: 32rem;
+ height: 17rem;
+ position: absolute;
+ left: 36rem;
+ background-color: white;
+}
+
+.info{
+width: 28rem;
+height: 14rem;
+position: absolute;
+left: 17rem;
+top: 25rem;
+z-index: -200rem;
+
+
+}
+
+.info a{
+text-align: right;
+color: white;
+font-size: 5rem;
+text-transform: uppercase;
+font-weight: 500;
+text-decoration: none;
+}
+
+.info a:hover{
+ text-shadow: 1px 1px black;
+}
+
+.Project2 {
+width: 25rem;
+height: 24rem;
+position: absolute;
+left: 2vw;
+top: 42rem;
+background-color: white;
+}
+
+.info2{
+width: 27rem;
+height: 14rem;
+position: absolute;
+left: 19rem;
+top: 49rem;
+transform: rotate(90deg);
+
+}
+
+.info2 a{
+text-align: right;
+color: white;
+font-size: 5rem;
+text-transform: uppercase;
+font-weight: 500;
+text-decoration: none;
+}
+
+.info2 a:hover{
+ text-shadow: 1px 1px black;
+}
+
+.Project3 {
+width: 29rem;
+height: 26rem;
+position: absolute;
+left: 19rem;
+top: 74rem;
+background-color: white;
+}
+
+.info3{
+width: 28rem;
+height: 14rem;
+position: absolute;
+left: 6rem;
+top: 61rem;
+
+}
+
+.info3 a{
+text-align: right;
+color: white;
+font-size: 5rem;
+text-transform: uppercase;
+font-weight: 500;
+text-decoration: none;
+}
+
+.info3 a:hover{
+ text-shadow: 1px 1px black;
+}
+
+.Project1:hover{
+  background-image: url(afb/img7.svg);
+
+
+}
+
+.Project2:hover{
+  background-image: url(afb/img8.svg);
+
+}
+.Project3:hover{
+  background-image: url(afb/img9.svg);
+
+}
+
 }
