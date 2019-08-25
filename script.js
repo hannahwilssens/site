@@ -47,7 +47,8 @@ mijnLink.addEventListener("click",preview);
 
 
 
-let mijnTitel = document.querySelector("h1");
+let mijnMain = document.querySelector("main");
+let mijnHeader = document.querySelector("header");
 
 function checkKey(e){
   let event = window.event ? window.event : e;
@@ -57,15 +58,19 @@ function checkKey(e){
 
 document.onkeydown = function(event){
   switch (event.keyCode){
-    case 37:   document.h1.style.color = "green";
+    case 37:   mijnMain.style.background = "#bcd3f7";
+              mijnHeader.style.background = "#bcd3f7";
 
   break;
   case 38:
-      document.body.style.backgroundColor = "blue";
+  mijnMain.style.background = "#b4edc3";
+           mijnHeader.style.background = "#b4edc3";
 
   break;
-  case 39: document.body.style.backgroundColor = "blue";
+  case 39:   mijnMain.style.background = "#ddc4f2";
+             mijnHeader.style.background = "#ddc4f2";
   break;
-  case 40: document.body.style.backgroundColor = "blue";
+  case 40: mijnMain.style.background = "#ebb9db";
+             mijnHeader.style.background = "#ebb9db";
     }
 };

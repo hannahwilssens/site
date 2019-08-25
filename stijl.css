@@ -78,7 +78,7 @@
 
  main{
    background: linear-gradient(to bottom,  #f5f3d0 30%, #E5AC7F 90%);
-   height: 200vh;
+   height: 250vh;
    width: 100vw;
 
  }
@@ -205,6 +205,51 @@ opacity: 0;
 .pink a{
 opacity: 0;
 }
+
+.tools{
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 2.5rem 2.5rem;
+  grid-template-rows: 2.5rem 2.5rem;
+  grid-gap: 2rem;
+  position: absolute;
+  top: 97rem;
+  left: 70vw;
+}
+
+.left p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.right p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.top p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.bottom p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.left{
+  grid-column: 1;
+  grid-row: 1;
+}
+h3{
+  position: absolute;
+  top: 94rem;
+  left: 70vw;
+  font-weight: 600;
+  color: white;
+}
+
 }
 
 @media (min-width: 700px) {
@@ -413,6 +458,50 @@ opacity: 0;
 }
 .pink a{
 opacity: 0;
+}
+
+.tools{
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 2.5rem 2.5rem;
+  grid-template-rows: 2.5rem 2.5rem;
+  grid-gap: 2rem;
+  position: absolute;
+  top: 97rem;
+  left: 70vw;
+}
+
+.left p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.right p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.top p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.bottom p{
+  font-size: 0.4rem;
+    color: white;
+}
+
+.left{
+  grid-column: 1;
+  grid-row: 1;
+}
+h3{
+  position: absolute;
+  top: 94rem;
+  left: 70vw;
+  font-weight: 600;
+    color: white;
 }
 }
 
@@ -687,5 +776,50 @@ text-decoration: none;
   background-image: url(afb/img9.svg);
 
 }
+
+.tools{
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 5rem 5rem;
+  grid-template-rows: 5rem 5rem;
+  grid-gap: 2rem;
+  position: absolute;
+  top: 100rem;
+  left: 70vw;
+}
+
+.left p{
+  font-size: 0.7rem;
+    color: white;
+}
+
+.right p{
+  font-size: 0.7rem;
+    color: white;
+}
+
+.top p{
+  font-size: 0.7rem;
+    color: white;
+}
+
+.bottom p{
+  font-size: 0.7rem;
+    color: white;
+}
+
+.left{
+  grid-column: 1;
+  grid-row: 1;
+}
+h3{
+  position: absolute;
+  top: 97rem;
+  left: 70vw;
+  font-weight: 600;
+    color: white;
+}
+
 
 }
